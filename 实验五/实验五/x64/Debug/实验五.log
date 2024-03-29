@@ -1,0 +1,21 @@
+﻿  LinkQueue.cpp
+  BinaryTree.cpp
+  main.cpp
+C:\Users\28301\source\repos\实验五\实验五\BinaryTree.cpp(166,29): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“main.cpp”)
+  C:\Users\28301\source\repos\实验五\实验五\BinaryTree.cpp(166,29):
+  模板实例化上下文(最早的实例化上下文)为
+  	C:\Users\28301\source\repos\实验五\实验五\main.cpp(68,9):
+  	查看对正在编译的 类 模板 实例化“BinaryTreeNode<int>”的引用
+  	C:\Users\28301\source\repos\实验五\实验五\BinaryTree.cpp(162,9):
+  	在编译 类 模板 成员函数“int BinaryTreeNode<int>::calculateScore(const std::vector<int,std::allocator<int>>,int) const”时
+  		C:\Users\28301\source\repos\实验五\实验五\BinaryTree.cpp(147,32):
+  		请参阅 "BinaryTreeNode<int>::printAllPathsHelper" 中对 "BinaryTreeNode<int>::calculateScore" 的第一个引用
+  		C:\Users\28301\source\repos\实验五\实验五\BinaryTree.cpp(134,28):
+  		请参阅 "BinaryTreeNode<int>::printAllPaths" 中对 "BinaryTreeNode<int>::printAllPathsHelper" 的第一个引用
+  		C:\Users\28301\source\repos\实验五\实验五\main.cpp(147,25):
+  		请参阅 "main" 中对 "BinaryTreeNode<int>::printAllPaths" 的第一个引用
+  
+  Stack.cpp
+  正在生成代码...
+  实验五.vcxproj -> C:\Users\28301\source\repos\实验五\x64\Debug\实验五.exe
